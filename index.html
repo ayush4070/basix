@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="">
+                <p>Ayush<span>Saini</span></p>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privixy</a></li>
+            </ul>
+        </div>
+        <div id="login">
+            <div class="signin">
+            <a href="http://127.0.0.1:5500/signin.html?"><button class="sign">Sign-in</button></a>
+            </div>
+          <div class="signup"> 
+            <a href="http://127.0.0.1:5500/signup.html"><button class="sign">Sign-Up</button></a> 
+            </div>
+        </div>
+    </div>
+  <script src="index.js"></script>
+
+  <div class="greet">
+    
+  </div>
+
+  <div class="calculater">
+    <input type="number" name="first" id="first" step="any"/>
+    <select id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <input type="number" name="second" id="second" step="any"/>
+    <br><br>
+    <button onclick="cal()">Calculate</button>
+    <input type="text" name="" id="res" readonly style="margin-left: 20px; text-align: center;">
+    
+  </div>
+</body>
+
+</html>
